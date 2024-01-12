@@ -2,7 +2,7 @@ import axios from 'axios';
 import fs from 'fs';
 
 async function speak() {
-  const subscriptionKey = '0854afd08d1a4bf08bb717c4158cc54e';
+  const subscriptionKey = '要記得放自己的金鑰2023-01-12 Frank';
   const region = 'eastus'; // Azure 资源所在的区域
   const text = '你好，我是 Azure 语音服务。';
   const language = 'zh-TW';

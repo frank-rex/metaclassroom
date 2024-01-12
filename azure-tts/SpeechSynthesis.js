@@ -10,7 +10,7 @@ if (!fs.existsSync(directory)) {
 }
 
 const audioFile = path.join(directory, "azure-tts.mp3");
-const speechKey = "dab8c7a631724857a9ab789296e6872d";
+const speechKey = " 要記得放自己的金鑰2023-01-12 Frank ";
 const speechRegion = "eastus";
 
 const speechConfig = sdk.SpeechConfig.fromSubscription(speechKey, speechRegion);
